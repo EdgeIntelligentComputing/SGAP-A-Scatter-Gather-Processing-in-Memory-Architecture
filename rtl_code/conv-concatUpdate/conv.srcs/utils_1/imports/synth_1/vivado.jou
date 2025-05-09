@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu May  8 12:33:50 2025
+# Process ID: 79664
+# Current directory: D:/semester11/PIM-DNN-Accelerator/u盘/Reconfigurable-mul/实验/实验代码/conv-concatUpdate/conv.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent70684 D:\semester11\PIM-DNN-Accelerator\u盘\Reconfigurable-mul\实验\实验代码\conv-concatUpdate\conv.srcs\utils_1\imports\synth_1\main.dcp
+# Log file: D:/semester11/PIM-DNN-Accelerator/u盘/Reconfigurable-mul/实验/实验代码/conv-concatUpdate/conv.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: D:/semester11/PIM-DNN-Accelerator/u盘/Reconfigurable-mul/实验/实验代码/conv-concatUpdate/conv.srcs/utils_1/imports/synth_1\vivado.jou
+#-----------------------------------------------------------
+start_gui

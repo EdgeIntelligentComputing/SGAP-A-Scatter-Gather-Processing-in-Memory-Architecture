@@ -1,0 +1,54 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2023/07/18 15:35:29
+// Design Name: 
+// Module Name: maxpooling
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module maxpooling(clk,operands,maxOut);
+input clk;
+input [71:0] operands;       //9*8-bit
+
+output [7:0] maxOut;
+reg [7:0] maxOut;
+
+//reg [11:0] maxreg;
+reg [3:0] i;
+
+always@(*)
+begin 
+//   if(reset==1'b0)
+//      maxOut<=8'b0;
+//   else
+//   begin
+    for (i=0; i<9; i=i+1)
+    begin
+        if(operands[i*8+:8] > maxOut) 
+           maxOut<=operands[i*8+:8]; 
+    end
+   //end
+end 
+
+//always@(*)
+//begin
+//    maxOut<=maxreg;
+//end
+
+
+
+endmodule
